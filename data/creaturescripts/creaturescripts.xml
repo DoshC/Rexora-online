@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<!-- Player Login -->
+	<event type="login" name="PlayerLogin" event="script" value="login.lua"/>
+
+	<!-- Ban System -->
+	<event type="channelrequest" name="Ban_Type" event="script" value="ban/type.lua"/>
+	<event type="channelrequest" name="Ban_Action" event="script" value="ban/action.lua"/>
+	<event type="textedit" name="Ban_Finish" event="script" value="ban/finish.lua"/>
+	<event type="login" name="offtrain_PlayerLogin" event="script" value="offtrain_login.lua"/>
+	<event type="logout" name="offtrain_PlayerLogout" event="script" value="offtrain_logout.lua"/>
+
+	<!-- Server Events -->
+	<event type="channeljoin" name="GuildEvents" event="script" value="guild.lua"/>
+	<event type="mailreceive" name="Mail" event="script" value="mail.lua"/>
+	<event type="reportbug" name="ReportBug" script="reportbug.lua"/>
+	<event type="advance" name="AdvanceSave" event="script" value="advancesave.lua"/>
+	<event type="think" name="Idle" event="script" value="idle.lua"/>
+	<event type="think" name="SkullCheck" event="script" value="skullcheck.lua"/>
+	<event type="combat" name="partyAndGuildProtection" event="script" value="partyAndGuildProtection.lua"/>
+	<event type="login" name="recordIp" event="script" value="recordIp.lua"/>
+	<event type="kill" name="SummonKill" event="script" value="obsidianknife.lua"/>
+	<event type="login" name="obs_login" event="script" value="obsidianknife.lua"/>
+	<event type="extendedopcode" name="ExtendedOpcode" event="script" value="extendedopcode.lua"/>
+	
+	<!-- The OTX Server (Emporia) -->
+	<event type="advance" name="Reward" event="script" value="emporia/reward.lua"/>
+	<event type="kill" name="InquisitionPortals" script="emporia/Inquisition.lua"/>
+	<event type="kill" name="ArenaKill" event="script" value="emporia/arenakill.lua"/>
+	<event type="death" name="PythiusTheRotten" event="script" value="emporia/PythiusTheRotten.lua"/>
+	<event type="login" name="login" event="script" value="logins.lua"/>
+	<event type="kill" name="WrathOfTheEmperor" event="script" value="wrathoftheemperor.lua"/>
+	<event type="kill" name="ungreez" script="emporia/Ungreez.lua"/>
+	<event type="kill" name="Diseased" script="emporia/Diseased.lua"/>
+	<event type="kill" name="Azerus" script="emporia/Azerus.lua"/>
+	<event type="kill" name="Shard Of Corruption" script="emporia/ShardOfCorruption.lua"/>
+	<event type="kill" name="tirecz" script="emporia/tirecz.lua"/>
+</creaturescripts>

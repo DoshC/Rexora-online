@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+	<action itemid="8834" event="script" value="other/offlinetraining.lua"/>
+	<action itemid="10353" event="script" value="other/offlinetraining.lua"/>
+	<action itemid="8626" event="script" value="other/offlinetraining.lua"/>
+	<action itemid="1444" event="script" value="other/offlinetraining.lua"/>
+	<action itemid="10349" event="script" value="other/offlinetraining.lua"/>
+	
+	<!-- Default script, responsible for destroyItem -->
+	<action default="yes" event="script" value="default.lua"/>
+
+	<!-- Quests -->
+	<action actionid="2000" event="script" value="quests/system.lua"/>
+	<action actionid="1001" event="script" value="other/closeddoor.lua"/>
+	<action itemid="1946" event="script" value="other/kazordoon_liftdown.lua"/>
+	<action itemid="1945" event="script" value="other/kazordoon_liftup.lua"/>
+	<action itemid="9930" event="script" value="tools/rustremover.lua"/>
+	<action itemid="2553" event="script" value="tools/pick.lua"/>
+	
+
+	<!-- Text -->
+	<action itemid="1957;7722;10122" event="script" value="other/text.lua"/>
+
+	<!-- Weapons enchanting (Gems) -->
+	<action itemid="2146-2147;2149-2150;7759-7762" event="script" value="other/enchanting.lua"/>
+
+	<!-- Change gold -->
+	<action itemid="2148;2152;2160" event="script" value="other/changegold.lua"/>
+
+	<!-- Tools -->
+	<action itemid="2420;2442" event="script" value="tools/machete.lua"/>
+	<action itemid="2550" event="script" value="tools/scythe.lua"/>
+	<action itemid="2580;10223" event="script" value="tools/fishing.lua" allowfaruse="1"/>
+	<action itemid="2554" event="script" value="tools/shovel.lua"/>
+	<action itemid="2120;7731" event="script" value="tools/rope.lua"/>
+	
+	<action itemid="5942" event="script" value="tools/blessed_wooden_stake.lua"/>
+	<action itemid="5957" event="script" value="other/lottery.lua"/>
+	<action itemid="10511;10513;10515" event="script" value="tools/squeeze.lua"/>
+
+	<!-- Consumables (Liquids+Foods) -->
+	<action itemid="1775;2005-2009;2011-2015;2023;2031-2034;2562;2574-2577;3941-3942;5553;10150" event="script" value="liquids/containers.lua"/>
+	<action itemid="6558" event="script" value="liquids/demonic_blood.lua"/>
+	<action itemid="7588-7591;8472-8473;7618;7620;8704" event="script" value="liquids/potions.lua"/>
+	<action itemid="7439" event="script" value="liquids/berserk_potion.lua"/>
+	<action itemid="7440" event="script" value="liquids/mastermind_potion.lua"/>
+	<action itemid="7443" event="script" value="liquids/bullseye_potion.lua"/>
+	<action itemid="8474" event="script" value="liquids/antidote_potion.lua"/>
+	<action itemid="2328;2362;2666-2691;2695-2696;2787-2796;5097;5678;6125;6278-6279;6393-6394;6501;6541-6545;6569;6574;7158-7159;7245;7372-7377;7909;7963;8112;8838-8845;8847;9005;9114;10454;11246;11429;12415-12418;12637-12639" event="script" value="foods/food.lua"/>
+	<action itemid="9992" event="script" value="foods/rotworm_stew.lua"/>
+	<action itemid="9993" event="script" value="foods/hydra_tongue_salad.lua"/>
+	<action itemid="9994" event="script" value="foods/roasted_dragon_wings.lua"/>
+	<action itemid="9995" event="script" value="foods/fried_tropical_terrorbird.lua"/>
+	<action itemid="9996" event="script" value="foods/banana_chocolate_shake.lua"/>
+	<action itemid="9997" event="script" value="foods/veggie_casserole.lua"/>
+	<action itemid="9998" event="script" value="foods/filled_jalapeno_peppers.lua"/>
+	<action itemid="9999" event="script" value="foods/blessed_steak.lua"/>
+	<action itemid="10000" event="script" value="foods/carrot_cake.lua"/>
+	<action itemid="10001" event="script" value="foods/northern_fishburger.lua"/>
+	<action itemid="12540" event="script" value="foods/coconut_shrimp_bake.lua"/>
+	<action itemid="12542" event="script" value="foods/pot_of_blackjack.lua"/>
+	<action itemid="12543" event="script" value="foods/demonic_candy_ball.lua"/>
+	<action itemid="12544" event="script" value="foods/sweet_mangonaise_elixir.lua"/>
+
+	<!-- Spellbooks -->
+	<action itemid="2175;6120;8190;8900-8904;8918;12647" event="script" value="other/spellbook.lua"/>
+
+	<!-- Construction kits -->
+	<action itemid="3901-3938;5086-5088;6114-6115;6372-6373;7503;7700;7960-7962;8692-8693;9974;10295" event="script" value="other/constructionkits.lua"/>
+	<action itemid="7904-7907" event="script" value="other/furniturebeds.lua"/>
+
+	<!-- Music, instruments -->
+	<action itemid="2070-2085;2094-2095;2332;2364;2367-2374;3951-3953;3957;5786;6123;9561;6572" event="script" value="other/music.lua"/>
+
+	<!-- Teleport (stairs, ladders) -->
+	<action itemid="430;1386;1369;3678;5543;8580;8599;10035;13010" event="script" value="other/teleport.lua"/>
+
+	<!-- Bread Creating -->
+	<action itemid="2692;2694" event="script" value="other/createbread.lua"/>
+	<!-- Doors -->
+	<action itemid="1209-1214;1219-1262;1539-1542;3535-3552;4913-4918;5082-5085;5098-5145;5278-5295;5515-5518;5732-5737;5745-5749;6192-6209;6249-6266;6795-6802;6891-6908;7033-7050;7054-7057;8541-8558;9165-9184;9267-9284;10268-10285;10468-10486;10775-10777;10780-10786;10789-10792;12092-12105;12188-12190;12193-12199;12202-12205" event="script" value="other/doors.lua"/>
+		<!-- Keys -->
+	<action itemid="2086-2092;10032;10091" event="script" value="other/keys.lua"/>
+		<!-- Windows -->
+	<action itemid="5303-5305;6436-6473;6788-6791;7025-7032;10264-10267;10488-10491" event="script" value="other/windows.lua"/>
+
+	<!-- Watches -->
+	<action itemid="1728-1731;1877;1881;2036;6091-6092;8187" event="script" value="other/watch.lua"/>
+
+	<!-- Reaction -->
+	<action itemid="5080;5669;5791;6512;6388;6566;8974;8977;8981;8982" event="script" value="other/reaction.lua"/>
+	<action itemid="8985;9002;9004;10018;10063-10064;10107-10108;10318;10718-10719" event="script" value="other/reaction.lua"/>
+
+	<!-- Other -->
+	<action itemid="2566;2096" event="script" value="other/pumpkinhead.lua"/>
+	<action itemid="2114" event="script" value="other/piggybank.lua"/>
+	<action itemid="2600" event="script" value="tools/inkwell.lua"/>
+	<action itemid="2785" event="script" value="other/blueberrybush.lua"/>
+	<action itemid="5792-5797" event="script" value="other/dice.lua"/>
+	<action itemid="6570-6571" event="script" value="other/surprisebag.lua"/>
+	<action itemid="6576" event="script" value="other/fireworksrocket.lua"/>
+	<action itemid="6578" event="script" value="other/partyhat.lua"/>
+	<action itemid="8110" event="script" value="other/present.lua"/>
+	<action itemid="7735" event="script" value="other/spellwand.lua"/>
+	<action itemid="7537;7585" event="script" value="other/spideregg.lua" />
+	<action itemid="6561;12424" event="script" value="other/blessings.lua"/>
+	
+	<!-- The OTX Server (Emporia) -->	
+		<!--- /emporia/ -->
+			<action itemid="2195" event="script" value="emporia/chickenwing.lua"/>
+			<action itemid="5891" event="script" value="emporia/chickenwing.lua"/>
+			<action actionid="65535" event="script" value="emporia/deeperbanuta.lua"/>"
+			<action itemid="12245" event="script" value="emporia/marked.lua"/>
+			<action itemid="12277" event="script" value="emporia/tailkeeper.lua"/>
+			<action itemid="12281" event="script" value="emporia/thekeeper.lua"/>
+			<action itemid="12251" event="script" value="emporia/cleanwater.lua"/>
+			<action itemid="12250" event="script" value="emporia/sacredcoal.lua"/>
+			<action itemid="12246" event="script" value="emporia/mixclay.lua"/>
+			<action itemid="12261" event="script" value="emporia/sacredclay.lua"/>
+			<action itemid="12264" event="script" value="emporia/pureclaybowl.lua"/>
+				<action itemid="11399" event="script" value="emporia/tools/squi.lua" allowfaruse="1"/>
+			<action fromaid="24232" toaid="24235" event="script" value="emporia/wrathlever.lua"/>
+			<action fromaid="23232" toaid="23233" event="script" value="emporia/leverscript.lua"/>
+		
+	
+		<!-- crystal UID -->
+
+		<!-- dreamer challenge -->
+			<action itemid="7844;7845;7846" event="script" value="emporia/out.lua"/>
+			<action fromaid="15051" toaid="15053" event="script" value="emporia/doc.lua"/>
+			<action fromaid="15061" toaid="15063" event="script" value="emporia/doc.lua"/>
+
+			<action actionid="39550" event="script" value="emporia/bookcase.lua"/>
+			<action itemid="5938" event="script" value="emporia/hydrawater.lua"/>
+
+			<action itemid="10523" event="script" value="emporia/egg.lua"/>
+			<action actionid="8271" event="script" value="emporia/egg.lua"/>
+
+		<!-- Elemental -->
+			<action uniqueid="23071" event="script" value="emporia/quests/lever.lua"/>
+			<action fromid="7911" toid="7918" event="script" value="emporia/machine.lua"/>
+			<action fromid="8298" toid="8299" event="script" value="emporia/soils.lua"/>
+			<action fromid="8302" toid="8303" event="script" value="emporia/soils.lua"/>			
+			
+		<!--- ZAO -->
+			<action actionid="4830" event="script" value="emporia/zaolever.lua"/> 
+			<action actionid="4831" event="script" value="emporia/zaolever.lua"/> 
+			<action actionid="4832" event="script" value="emporia/zaolever.lua"/> 
+			<action actionid="4833" event="script" value="emporia/zaolever.lua"/> 
+			<action uniqueid="6232" event="script" value="emporia/script.lua"/> 
+			<action actionid="60994" event="script" value="emporia/quests/parch.lua"/> 
+			<action actionid="4330" event="script" value="emporia/zaoquest.lua"/>
+			<action actionid="45535" event="script" value="emporia/door.lua"/> 
+			<action actionid="4331" event="script" value="emporia/zaoquest.lua"/> 
+			<action itemid="7734" event="script" value="emporia/food.lua" />
+			<action itemid="9661" event="script" value="emporia/crate.lua" />
+			
+		<!-- Skull Remover -->
+		<action itemid="9969" event="script" value="emporia/skull.lua"/>
+ 
+		<!-- Liberty Bay Cult Piano -->
+			<action actionid="60034" event="script" value="emporia/piano.lua"/>
+			<action itemid="6087" event="script" value="emporia/piano.lua"/>
+			<action itemid="6088" event="script" value="emporia/piano.lua"/>
+			<action itemid="6089" event="script" value="emporia/piano.lua"/>
+			<action itemid="6090" event="script" value="emporia/piano.lua"/> 
+ 
+		<!-- Paradox Actions-->
+			<action actionid="11005" event="script" value="emporia/paradox_actions/paradox_lvl5.lua"/>
+			<action actionid="11004" event="script" value="emporia/paradox_actions/paradox_lvl4.lua"/>
+			<action actionid="11003" event="script" value="emporia/paradox_actions/paradox_box.lua"/>
+			<action actionid="11002" event="script" value="emporia/paradox_actions/paradox_lvl2.lua"/>
+			<action actionid="9901" event="script" value="emporia/paradox_actions/paradox_reward.lua"/>
+			<action actionid="9902" event="script" value="emporia/paradox_actions/paradox_reward.lua"/>
+			<action actionid="9903" event="script" value="emporia/paradox_actions/paradox_reward.lua"/>
+			<action actionid="9904" event="script" value="emporia/paradox_actions/paradox_reward.lua"/>
+			<action uniqueid="11001" event="script" value="emporia/paradox_actions/key.lua"/>
+
+		<!-- InquisitonQuest -->
+			<action uniqueid="1300" event="script" value="emporia/Inquisition/Reward.lua"/> 
+			<action uniqueid="1301" event="script" value="emporia/Inquisition/Reward.lua"/> 
+			<action uniqueid="1302" event="script" value="emporia/Inquisition/Reward.lua"/> 
+			<action uniqueid="1303" event="script" value="emporia/Inquisition/Reward.lua"/> 
+			<action uniqueid="1304" event="script" value="emporia/Inquisition/Reward.lua"/> 
+			<action uniqueid="1305" event="script" value="emporia/Inquisition/Reward.lua"/> 
+			<action uniqueid="1306" event="script" value="emporia/Inquisition/Reward.lua"/> 
+			<action uniqueid="1307" event="script" value="emporia/Inquisition/Reward.lua"/> 
+			<action uniqueid="1308" event="script" value="emporia/Inquisition/Reward.lua"/> 
+	
+		<!-- Inquisiton -->
+			<action itemid="7488" event="script" value="emporia/quests/bigboil.lua" />
+			<action actionid="18899" event="script" value="emporia/quests/pirateghost.lua" /> 
+		<!--Arena Quest-->
+			<action actionid="42366" event="script" value="emporia/quests/arenadoors.lua"/>
+			<action actionid="42376" event="script" value="emporia/quests/arenadoors.lua"/>
+			<action actionid="42386" event="script" value="emporia/quests/arenadoors.lua"/>
+			<action actionid="42357" event="script" value="emporia/quests/arenadoors.lua"/>
+			<action fromaid="42361" toaid="42365" event="script" value="emporia/quests/arenareward.lua"/>
+			<action fromaid="42371" toaid="42375" event="script" value="emporia/quests/arenareward.lua"/>
+			<action fromaid="42381" toaid="42385" event="script" value="emporia/quests/arenareward.lua"/>
+
+		<!-- Quests -->
+			<!-- DCQ -->
+			<action uniqueid="12941" event="script" value="emporia/dcq/pillars.lua"/>
+			<action uniqueid="41191" event="script" value="emporia/dcq/switch1.lua"/>
+			<action uniqueid="41192" event="script" value="emporia/dcq/switch2.lua"/>
+			<action uniqueid="41193" event="script" value="emporia/dcq/switch3.lua"/>
+			<action uniqueid="41194" event="script" value="emporia/dcq/switch4.lua"/>
+			<action actionid="51061" event="script" value="emporia/dcq/switch5.lua"/>
+			<action uniqueid="12940" event="script" value="emporia/dcq/tictac.lua"/>
+			<action actionid="12942" event="script" value="emporia/dcq/tictac_switch.lua"/>
+			<action itemid="5468" event="script" value="emporia/dcq/tp.lua" />
+			
+			<action uniqueid="20000" event="script" value="emporia/quests/bk.lua" />
+			<action uniqueid="20001" event="script" value="emporia/quests/bk.lua" />
+			<action uniqueid="57497" event="script" value="emporia/quests/bkkey.lua" />
+			<action itemid="2361" event="script" value="emporia/quests/yakchal.lua" /> 
+			<action itemid="8266" event="script" value="emporia/quests/koshei.lua"/>
+			<action itemid="8293" event="script" value="emporia/demon oak/demonOak.lua"/>
+			<action fromuid="12901" touid ="12904" event="script" value="emporia/demon oak/demonOakChests.lua"/>
+			<action uniqueid="55100" event="script" value="emporia/demon oak/demonOakGravestone.lua" />
+			<action uniqueid="48811" event="script" value="emporia/quests/necro_quest.lua" />
+			<action uniqueid="17132" event="script" value="emporia/quests/goroma_dead_body.lua" />
+			<action uniqueid="5000" event="script" value="emporia/quests/annihilator.lua" />
+			<action uniqueid="49111" event="script" value="emporia/quests/Copy of annihilator.lua" />
+			<action uniqueid="49112" event="script" value="emporia/quests/Copy of annihilator.lua" />
+			<action uniqueid="49113" event="script" value="emporia/quests/Copy of annihilator.lua" />
+			<action uniqueid="49114" event="script" value="emporia/quests/Copy of annihilator.lua" /> 
+			<action uniqueid="13309" event="script" value="emporia/quests/banshee.lua"/>
+			<action uniqueid="13310" event="script" value="emporia/quests/banshee1.lua"/>
+			<action uniqueid="16440" event="script" value="emporia/quests/dcq_dead.lua"/>
+			<action uniqueid="10552" event="script" value="emporia/quests/poirewards.lua"/>
+			<action uniqueid="10544" event="script" value="emporia/quests/poirewards.lua"/>
+			<action uniqueid="10548" event="script" value="emporia/quests/poirewards.lua"/>
+			<action uniqueid="10545" event="script" value="emporia/quests/poirewards.lua"/>
+			<action uniqueid="10546" event="script" value="emporia/quests/poirewards.lua"/>
+			<action uniqueid="10547" event="script" value="emporia/quests/poirewards.lua"/>
+			<action uniqueid="10549" event="script" value="emporia/quests/poirewards.lua"/>
+			<action uniqueid="10550" event="script" value="emporia/quests/poirewards.lua"/>
+			<action uniqueid="10559" event="script" value="emporia/quests/poirewards.lua"/>
+			<action uniqueid="10560" event="script" value="emporia/quests/poirewards.lua"/>
+			<action uniqueid="30228" event="script" value="emporia/quests/bookpoi.lua"/>
+			<action uniqueid="56221" event="script" value="emporia/quests/poi_skeleton.lua"/>
+			<action uniqueid="45221" event="script" value="emporia/quests/dhq.lua"/>
+			<action uniqueid="11190" event="script" value="emporia/quests/tower_shield.lua"/>
+			<action uniqueid="11191" event="script" value="emporia/quests/dwarven_ring.lua"/>
+			<action uniqueid="11192" event="script" value="emporia/quests/elven_amulet.lua"/>
+			<action uniqueid="11193" event="script" value="emporia/quests/knight_axe.lua"/>
+			<action uniqueid="11194" event="script" value="emporia/quests/warrior_helmet.lua"/>
+			<action uniqueid="16331" event="script" value="emporia/quests/warlock.lua"/>
+			<action uniqueid="14260" event="script" value="emporia/quests/fire_axe.lua"/>
+			<action uniqueid="14331" event="script" value="emporia/quests/orctreasure2.lua"/>
+			<action uniqueid="7442" event="script" value="emporia/quests/orctreasure.lua"/>
+			<action uniqueid="43430" event="script" value="emporia/quests/gshole2.lua"/>
+			<action uniqueid="45123" event="script" value="emporia/quests/iron_helmet.lua"/>
+			<action uniqueid="50011" event="script" value="emporia/quests/book2.lua"/>
+			<action uniqueid="50012" event="script" value="emporia/quests/book1.lua"/>
+			<action uniqueid="7163" event="script" value="emporia/quests/desert2.lua"/>
+			<action uniqueid="1740" event="script" value="emporia/quests/desert1.lua"/>
+			<action uniqueid="1912" event="script" value="emporia/quests/vocation_quest.lua"/>
+			<action uniqueid="61001" event="script" value="emporia/quests/triangle_tower.lua"/>
+			<action uniqueid="14433" event="script" value="emporia/quests/spike_sword.lua"/>
+			<action uniqueid="8900" event="script" value="emporia/quests/explorer.lua"/>
+			<action uniqueid="1881" event="script" value="emporia/quests/waterfall_quest.lua"/>
+			<action uniqueid="9991" event="script" value="emporia/quests/ancienttemple.lua"/>
+			<action uniqueid="6662" event="script" value="emporia/quests/darkarmor.lua"/>
+			<action uniqueid="7644" event="script" value="emporia/quests/scalearmor.lua"/>
+			<action uniqueid="7451" event="script" value="emporia/quests/orcshaman.lua"/>
+			<action uniqueid="8441" event="script" value="emporia/quests/fanfare.lua"/>
+			<action uniqueid="57346" event="script" value="emporia/quests/fanfare_quest.lua"/>
+			<action uniqueid="47666" event="script" value="emporia/quests/mummy.lua"/>
+			<action uniqueid="65535" event="script" value="emporia/quests/blood_herb.lua"/>
+			<action uniqueid="7777" event="script" value="emporia/quests/battleaxe.lua"/>
+			<action uniqueid="54116" event="script" value="emporia/quests/crusader.lua"/>
+			<action uniqueid="30015" event="script" value="emporia/quests/annihilator.lua"/>
+			<action uniqueid="8889" event="script" value="emporia/quests/bsword.lua" /> 
+			
+		<!-- Other -->
+			<action uniqueid="7511" event="script" value="emporia/other/poba1.lua" />
+			<action uniqueid="7512" event="script" value="emporia/other/poba2.lua" />
+			<action uniqueid="7513" event="script" value="emporia/other/poba3.lua" />
+			<action uniqueid="7514" event="script" value="emporia/other/poba4.lua" />
+			<action actionid="12968" event="script" value="emporia/other/inq4.lua"/>
+			<action actionid="12967" event="script" value="emporia/other/inq3.lua"/>
+			<action actionid="12966" event="script" value="emporia/other/inq2.lua"/>
+			<action actionid="12965" event="script" value="emporia/other/inq1.lua"/>
+			<action itemid="10309" event="script" value="emporia/other/claw.lua"/>  
+			<action actionid="33216" event="script" value="emporia/piano.lua"/>
+			<action uniqueid="2050-2065" event="script" value="emporia/other/poilever.lua"/>
+			<action actionid="32264" event="script" value="emporia/other/gravestone.lua"/>
+			<action actionid="51151" event="script" value="emporia/other/yalahar_brama.lua"/>
+			<action actionid="51152" event="script" value="emporia/other/yalahar_brama.lua"/>
+			<action actionid="51153" event="script" value="emporia/other/yalahar_brama.lua"/>
+			<action actionid="51154" event="script" value="emporia/other/yalahar_brama.lua"/>
+			<action actionid="51155" event="script" value="emporia/other/yalahar_brama.lua"/>
+			<action actionid="51156" event="script" value="emporia/other/yalahar_brama.lua"/>
+			<action actionid="51157" event="script" value="emporia/other/yalahar_brama.lua"/>
+			<action actionid="51158" event="script" value="emporia/other/yalahar_brama.lua"/>
+			<action actionid="51159" event="script" value="emporia/other/yalahar_brama.lua"/>
+			<action actionid="51160" event="script" value="emporia/other/yalahar_brama.lua"/>
+			<action actionid="51161" event="script" value="emporia/other/yalahar_brama.lua"/>
+			<action actionid="51162" event="script" value="emporia/other/yalahar_brama.lua"/>
+			<action actionid="51163" event="script" value="emporia/other/yalahar_brama.lua"/>
+			<action actionid="51164" event="script" value="emporia/other/yalahar_brama.lua"/>
+			<action actionid="42261" event="script" value="emporia/other/czerwone drzwi.lua"/>
+			<action actionid="58266" event="script" value="emporia/other/yalahar drzwi.lua"/>
+			<action uniqueid="13444" event="script" value="emporia/other/ab.lua"/>
+			<action actionid="39512" event="script" value="emporia/other/BazirMirror1.lua"/>
+			<action actionid="39511" event="script" value="emporia/other/BazirMirror.lua"/>
+			<action actionid="61133" event="script" value="emporia/other/skrot_poidrzwi.lua"/>
+			<action uniqueid="56330" event="script" value="emporia/other/LavaLever.lua"/>
+			<action uniqueid="56331" event="script" value="emporia/other/LavaLever.lua"/>
+			<action actionid="42880" event="script" value="emporia/other/poi_stone2.lua"/>
+			<action uniqueid="42881" event="script" value="emporia/other/poi_stone.lua"/>
+			<action uniqueid="13228" event="script" value="emporia/other/smallbridge1.lua"/>
+			<action uniqueid="13229" event="script" value="emporia/other/stalagmite.lua"/>
+			<action uniqueid="30001" event="script" value="emporia/other/wallknight.lua"/>
+			<action uniqueid="30002" event="script" value="emporia/other/walldruid.lua"/>
+			<action uniqueid="30003" event="script" value="emporia/other/wallpaladin.lua"/>
+			<action uniqueid="30004" event="script" value="emporia/other/wallsorcerer.lua"/>
+			<action uniqueid="8933" event="script" value="emporia/other/Oillever.lua"/>
+			<action actionid="56222" event="script" value="emporia/other/senja.lua"/>
+			<action uniqueid="3991" event="script" value="emporia/other/iron_helmet.lua"/>
+			<action uniqueid="6778" event="script" value="emporia/other/triangle_tower.lua"/>
+			<action uniqueid="5511" event="script" value="emporia/other/orcedron.lua"/>
+			<action uniqueid="6665" event="script" value="emporia/other/darkshield_teleport.lua"/>
+			<action uniqueid="4444" event="script" value="emporia/other/darkshield.lua"/>
+			<action uniqueid="3333" event="script" value="emporia/other/switch_venore.lua"/>
+			<action uniqueid="33210" event="script" value="emporia/other/banuta.lua"/>
+			
+		<!-- Lighthouse -->
+			<action actionid="12901" event="script" value="emporia/quests/lighthouse.lua" />
+			<action actionid="12902" event="script" value="emporia/quests/lighthouse2.lua" />
+			<action uniqueid="14009" event="script" value="emporia/quests/fibula.lua" />
+
+		<!-- GHV -->
+			<action actionid="14010" event="script" value="emporia/ghv/stone 1.lua"/>
+			<action actionid="14011" event="script" value="emporia/ghv/stone 2.lua"/>
+			<action actionid="14012" event="script" value="emporia/ghv/stone 3.lua"/>
+			<action actionid="14013" event="script" value="emporia/ghv/stone 4.lua"/>
+			<action actionid="14014" event="script" value="emporia/ghv/stone 5.lua"/>
+			<action actionid="14015-14018" event="script" value="emporia/ghv/chest.lua"/>
+		<!-- WOTE -->
+			<action itemid="2549;5710;2553;5908;12285;12300;12303;12289;12290;12318;12385;12320;12316" event="emporia/wrath of the emperor.lua"/>
+			<action actionid="103;102;130;120;121;122;123;110;113;114;115;116;117;131;132;133" event="script" value="emporia/wrath of the emperor.lua"/>
+			<action actionid="14019" event="script" value="emporia/other/wild vine.lua"/>
+			<action actionid="14020" event="script" value="emporia/other/wild vines.lua"/>
+			<action actionid="14022" event="script" value="emporia/quests/doorpoi.lua"/>
+		<!-- Inquisition -->
+			<action uniqueid="9021" event="script" value="emporia/Inquisition/Door.lua"/> 
+			<action itemid="7494" event="script" value="emporia/Inquisition/Holy Water.lua"/>
+			<action actionid="14025" event="script" value="emporia/Inquisition/Mission 2.lua"/> 
+			<action actionid="14027" event="script" value="emporia/Inquisition/Vampire Hunt.lua"/>
+			<action actionid="14029" event="script" value="emporia/Inquisition/Ungreez.lua"/>
+		<!-- Yalahar -->
+			<action itemid="2416" event="script" value="emporia/yalahar/crowbar.lua"/>
+			<action actionid="14032" event="script" value="emporia/yalahar/AzerusDoor.lua"/>	
+			<action uniqueid="14033" event="script" value="emporia/yalahar/PalimuthNotes.lua"/>
+			<action uniqueid="14034" event="script" value="emporia/yalahar/PalimuthDoor.lua"/>
+			<action uniqueid="14035" event="script" value="emporia/yalahar/AzerusNotes.lua"/>
+			<action uniqueid="14036" event="script" value="emporia/yalahar/AzerusDoorNotes.lua"/>
+			<action uniqueid="7801" event="script" value="emporia/yalahar/BogDoor.lua"/>
+			<action uniqueid="14037" event="script" value="emporia/yalahar/BogDoorReward.lua"/>
+			<action uniqueid="14038" event="script" value="emporia/yalahar/BogReward.lua"/>
+			<action uniqueid="14039-14040" event="script" value="emporia/yalahar/WestDoor.lua"/>
+			<action uniqueid="14041" event="script" value="emporia/yalahar/TamerinDoor.lua"/>
+			<action uniqueid="14042" event="script" value="emporia/yalahar/MorikDoor.lua"/>
+			<action uniqueid="14043" event="script" value="emporia/yalahar/MorikSummon.lua"/>
+			<action itemid="9737" event="script" value="emporia/yalahar/Charm.lua"/>
+			<action itemid="9741" event="script" value="emporia/yalahar/Ghost.lua"/>
+			<action actionid="14042" event="script" value="emporia/yalahar/MatrixDoor.lua"/>
+			<action uniqueid="14044-14045" event="script" value="emporia/yalahar/MatrixReward.lua"/>
+			<action actionid="14043" event="script" value="emporia/yalahar/MachineDoor.lua"/>
+			<action fromid="9743" toid="9744" event="script" value="emporia/yalahar/MachineMatrix.lua"/>
+			<action uniqueid="14046" event="script" value="emporia/yalahar/LastDoor.lua"/>
+			<action uniqueid="14047" event="script" value="emporia/yalahar/LastBatle.lua"/>
+			<action actionid="14049" event="script" value="emporia/yalahar/RewardDoor.lua"/> 
+			<action actionid="58267" event="script" value="emporia/yalahar/reward.lua"/> 
+			<action actionid="58268" event="script" value="emporia/yalahar/reward.lua"/> 
+			<action actionid="58269" event="script" value="emporia/yalahar/reward.lua"/> 
+			<action uniqueid="3091-3102" event="script" value="emporia/yalahar/Mechanism.lua"/> 
+		<!-- Children Of Revolution -->
+			<action uniqueid="14050" event="script" value="emporia/Children Of Revolution/tacticalmap.lua"/>
+			<action uniqueid="14051" event="script" value="emporia/Children Of Revolution/PosionReward.lua"/>
+			<action itemid="10760" event="script" value="emporia/Children Of Revolution/Posiontile.lua"/>
+			<action actionid="14055" event="script" value="emporia/Children Of Revolution/lever.lua"/>
+			<action itemid="11106" event="script" value="emporia/Children Of Revolution/GreasyOil.lua"/>
+
+		<!-- Unnatura Selection Quest -->
+			<action uniqueid="14060" event="script" value="emporia/unnatural selection/QuestSkull.lua"/>	<!-- pile of bones UID -->
+			<action itemid="11076" event="script" value="emporia/unnatural selection/QuestAllAroundtheWorld.lua"/>
+
+		<!-- the queen of the banshees quest -->		
+		<action uniqueid="50000-50002" event="script" value="emporia/the queen of the banshees quest/theFirstSeal.lua"/> 
+		<!-- The New Frontier Quest -->
+		<action itemid="11100" event="script" value="emporia/The New Frontier Quest/QuestBeaver.lua"/> 
+		<action actionid="14063-14064" event="script" value="emporia/The New Frontier Quest/QuestLever.lua"/>
+		<action uniqueid="14070" event="script" value="emporia/The New Frontier Quest/QuestRetreat.lua"/>
+		<action uniqueid="14071" event="script" value="emporia/The New Frontier Quest/QuestArena.lua"/> 
+		<!-- the travelling trader quest -->
+		<action uniqueid="14072" event="script" value="emporia/the travelling trader quest/rashidQuestPackage.lua"/>
+		<action uniqueid="14073" event="script" value="emporia/the travelling trader quest/rashidQuestPackageDoor.lua"/>
+		<!-- the ancient tombs quest -->
+		<action actionid="14080-14082" event="script" value="emporia/the ancient tombs quest/TeleportSwitches.lua"/>
+		
+</actions>

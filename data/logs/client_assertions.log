@@ -1,0 +1,59 @@
+----- 8/6/2013 17:54:6 - ADMIN (190.233.44.167) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Ultimate Edition 64 Bit in PER
+Processor: Intel Core i5 760 @ 2.8
+Video Card: ATI Radeon HD 4300/4500
+Last Packet Types: 170 160 131 131 131 131 131 131 131 131
+Last Packet: 131 113 129 199 123 011 043 131 111 129 200 123 011 043 131 112
+Player Position: [33137,31692,11]
+Player Name: ADMIN (The OTX Emporia)
+Player Action: 049 057 048 046 055 053 046 056 050 046 052 056 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Network.cpp 921: assertion failed (BufferSize = 0) (NextToWrite = 16394), reason:
+BufferSize>0
+Sat Jun 08 17:24:38 2013
+Debug Assertion 8.60 Network.cpp 921
+
+----- 1/7/2014 14:37:16 - Dosh (192.168.8.100) -----
+Comment: 
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 64 Bit in VEN
+Processor: AMD C-60 APU 
+Video Card: ATI Radeon HD AMD 6290 
+Last Packet Types: 107 131 131 131 131 131 131 133 132 131
+Last Packet: 131 249 125 201 125 006 003 131 245 125 201 125 006 003 107 249
+Player Position: [32241,32201,6]
+Player Name: Dosh Hc (Zyrania Real Map)
+Player Action: 049 057 056 046 050 055 046 049 050 055 046 053 053 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Network.cpp 921: assertion failed (BufferSize = 0) (NextToWrite = 16394), reason:
+BufferSize>0
+Tue Jul 01 14:35:35 2014
+Debug Assertion 8.60 Network.cpp 921
+
+----- 26/7/2014 16:12:23 - Dosh Hc (192.168.8.100) -----
+
+Graphic Engine: DirectX9 (2)
+Operating System: Windows 7 Home Premium Edition 64 Bit in VEN
+Processor: AMD C-60 APU 
+Video Card: ATI Radeon HD AMD 6290 
+Last Packet Types: 100 010 031 100 020 010 010 010 010 000
+Last Packet: 010 249 171 000 016 050 000 000 100 188 128 076 125 007 166 017
+Player Position: [0,0,0]
+Player Name: Dosh (The OTX Emporia)
+Player Action: 049 057 050 046 049 054 056 046 056 046 049 048 048 058 055 049 055 050
+Player.cpp 361: exception occurred, reason:
+Network.cpp 946: exception occurred (ErrorCode = 0), reason:
+Control.cpp 1331: exception occurred (Type = 100) (MainWindow = 11554016), reason:
+Communication.cpp 1681: exception occurred (PlayerX = 32956) (PlayerY = 32076), reason:
+Communication.cpp 1659: exception occurred (xmin = 0) (ymin = 0), reason:
+Communication.cpp 1638: exception occurred (Type = 97) (OldType = 429), reason:
+Communication.cpp 1592: exception occurred (Type = 97) (CreatureID = 268479481), reason:
+Objects.cpp 604: exception occurred (Number = 65535), reason:
+Container.h 226: index out of range (original i: 65535, i: 65534, min: 1, d: 367)
+Sat Jul 26 16:09:45 2014
+Debug Assertion 8.60 Container.h 226
+

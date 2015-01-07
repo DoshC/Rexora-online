@@ -1,0 +1,136 @@
+Castle, woe_config, stor = {}, {}, {}
+	
+--castle name (?)
+Castle.name = 'Emporia'
+
+--aid of entry.
+Castle.tiles = 3131
+
+--aid for created portals.
+Castle.portals = 3132
+
+--aid of flags in castle.
+Castle.banderas = 3133
+
+--aid of empes bases.
+Castle.bases = 3134
+
+--uids in case you have decorations with info.
+Castle.decoraciones = {}
+
+--where you teleported from temple.
+Castle.pos = {x = 55, y = 79, z = 7}
+
+--where players are teleported when finished or castle owner change.
+Castle._exit = {x = 32368, y = 32229, z = 7}
+
+--where portal appears
+Castle.desde = {x = 32344, y = 32231, z = 7, stackpos = 1}
+
+--true / false
+default_map = true
+--if you will not use default map you should config all the pos.
+
+--main empe pos => with this pos all castle pos will be calculated (default map only)
+Castle.empePos = {x = 55, y = 34, z = 5, stackpos = 253}
+
+if default_map then
+	local pos = Castle.empePos
+	
+	--entry for guild by using flags.
+	Castle.guildEntry = {x = pos.x - 9, y = pos.y + 4, z = pos.z}
+	
+	--each floor should be all floor.
+	Castle.salas = 
+		{
+			a = {fromx = pos.x - 18, tox = pos.x + 18, fromy = pos.y - 10, toy =  pos.y + 28, z = pos.z + 2},
+			b = {fromx = pos.x - 18, tox = pos.x + 18, fromy = pos.y - 10, toy =  pos.y + 28, z = pos.z + 1},
+			c = {fromx = pos.x - 18, tox = pos.x + 18, fromy = pos.y - 10, toy =  pos.y + 28, z = pos.z}
+		}
+
+	--pre empes pos
+	Castle.PreEmpes = 
+		{
+			{x = pos.x - 13, y = pos.y + 3, z = pos.z + 1, stackpos = 253}, 
+			{x = pos.x + 13, y = pos.y + 3, z = pos.z + 1, stackpos = 253}
+		}
+
+	--when you kill pre empes new portals appears.
+	Castle.PrePortalsPos = 
+		{
+			{x = pos.x - 4, y =  pos.y - 6, z = pos.z + 1, stackpos = 1},
+			{x = pos.x + 4, y =  pos.y - 6, z = pos.z + 1, stackpos = 1}
+		}
+
+	Castle.PreToPos = 
+		{
+			[1] = {x = pos.x - 7, y =  pos.y + 26, z = pos.z},
+			[2] = {x = pos.x + 7, y =  pos.y + 26, z = pos.z}
+		}
+
+else
+--edit those if not using default map
+--read above to know what is everything.
+--break this comment to use [...]
+--[[
+	Castle.guildEntry = {x = 46, y = 38, z = 5}
+			
+	Castle.salas = 
+		{
+			a = {fromx=37, tox=73, fromy=24, toy=62, z=7},
+			b = {fromx=37, tox=73, fromy=24, toy=62, z=6},
+			c = {fromx=37, tox=73, fromy=24, toy=62, z=5}
+		}
+
+	Castle.PreEmpes = 
+		{
+			{x=42, y=37, z=6, stackpos=253}, 
+			{x=68, y=37, z=6, stackpos=253}
+		}
+
+	Castle.PrePortalsPos = 
+		{
+			{x=51, y=28, z=6, stackpos=1},
+			{x=59, y=28, z=6, stackpos=1}
+		}
+
+	Castle.PreToPos = 
+		{
+			[1] = {x = 48, y = 60, z = 5},
+			[2] = {x = 62, y = 60, z = 5}
+		}
+]]
+end
+
+--duration
+woe_config.timeToEnd = 10
+
+--bc type
+woe_config.bcType = MESSAGE_EVENT_ADVANCE
+
+--days
+woe_config.dias = {"tuesday", "thursday", "saturday"}
+
+--time to start
+woe_config.horaPartida = 17
+
+--access to start
+woe_config.accessToStar = 3
+
+--recall delay
+woe_config.recallTime = 5 * 60
+
+--rewards for winners
+woe_config.premios = true
+
+--storage for register players	
+stor.register = 8589
+
+--recall delay stor
+stor.recall = 23155
+
+--global stor started
+stor.Started = 7801
+
+--global stor [...]
+stor.WoeTime = 7802

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<raid>
+  <!--Announcements-->
+<announce delay="1000" type="event" message="Beware of Zevelong Duskbringer" />
+  <!--Single Spawns-->
+  <singlespawn delay="1000" name="Zevelong Duskbringer" x="32754" y="31578" z="11" />
+</raid>

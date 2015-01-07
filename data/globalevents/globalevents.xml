@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent name="save" interval="3600000" event="script" value="save.lua"/>
+	<globalevent name="clean" interval="7200000" event="script" value="clean.lua"/>
+	<globalevent name="init" type="startup" event="script" value="init.lua"/>
+	<globalevent name="globalsave" type="globalsave" event="script" value="init.lua"/>
+	<globalevent name="record" type="record" event="script" value="record.lua"/>
+	<globalevent name="rashid" type="startup" event="script" value="RashidDaily.lua"/>
+	<globalevent name="offtrain_add_minutes" interval="60000" event="script" value="offtrain_addMinutes.lua"/>
+	
+	<!-- The OTX Server (Emporia) -->
+		<globalevent name="information" interval="1000000" event="script" value="autobroadcast.lua"/>
+		<globalevent name="effect" interval="3000" event="script" value="effects.lua"/>
+				<globalevent name="raids" interval="15000" event="script" value="raid.lua"/>
+</globalevents>

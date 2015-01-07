@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raids>
+<raid name="Arachir the Ancient One" file="ancient.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Barbarian" file="barbarian.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Demodras" file="demodras.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Elf" file="elf.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Ferumbras" file="ferumbras.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Ghazbaran" file="ghazbaran.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Halloween Hare" file="halloween.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Horned Fox" file="horned.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Morgaroth" file="morgaroth.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Necropharus" file="necropharus.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Nomads" file="nomads.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Old Widow" file="tow.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Orcs" file="orcs.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Orshabaal" file="orshabaal.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Pirates" file="pirates.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Quaras" file="quaras.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Sir Valorcrest" file="valor.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Scarabs" file="scarabs.xml" interval2="30" margin="1000" enabled="yes"/> 
+<raid name="Thais" file="thais.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Undead" file="undead.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Undead Darashia" file="undead darashia.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Zevelong Duskbringer" file="dusk.xml" interval2="30" margin="1000" enabled="yes"/>
+<raid name="Zulazza the Corruptor" file="zulazza.xml" interval2="30" margin="1000" enabled="yes"/> 
+</raids>

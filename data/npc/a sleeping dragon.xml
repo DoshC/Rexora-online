@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="a Sleeping Dragon" script="a sleeping dragon.lua" walkinterval="00" floorchange="0">
+	<health now="100" max="100"/>
+	<look typeex="12358"/>
+</npc>

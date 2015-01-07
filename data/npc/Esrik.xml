@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Esrik" script="data/npc/scripts/Esrik.lua" walkinterval="2000" floorchange="0">
+<health now="185" max="185"/>
+<look type="71" head="0" body="0" legs="0" feet="0" addons="0"/>
+<parameters>
+<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="
+		axe,2386,7;
+		brass armor,2465,150;
+		chain armor,2464,70;
+		chain helmet,2458,17;
+		chain legs,2648,25;
+		hand axe,2380,4;
+		leather armor,2467,12;
+		mace,2398,30;
+		rapier,2384,5;
+		sabre,2385,12;
+		spear,2389,3;
+		steel shield,2509,80;
+		sword,2376,25;
+		wooden shield,2512,3;
+		battle axe,2378,80;
+		battle shield,2513,95;
+		halberd,2381,400;
+		morning star,2394,90;
+		plate armor,2463,400;
+		steel helmet,2457,190;
+		two handed sword,2377,450;
+		warmaster's wristguards,11322,200;
+		twin hooks,11303,500;
+		zaoan halberd,11323,500;
+		bone shoulderplate,11315,150;
+		broken halberd,11329,100;
+		cursed shoulder spikes,11321,320;
+		drachaku,11302,10000;
+		drakinata,11305,10000;
+		draken boots,12646,40000;
+		guardian boots,11234,35000;
+		high guard's shoulderplates,11327,130;
+		legionnaire flags,11328,500;
+		sais,11306,16500;
+		spiked iron ball,11325,100;
+		trashed draken boots,12607,40000;
+		twiceslicer,12574,28000;
+		wailing widow's necklace,11323,3000;
+		zaoan armor,11301,14000;
+		zaoan helmet,11302,45000;
+		zaoan legs,11304,14000;
+		zaoan shoes,11303,5000;
+		zaoan sword,11307,30000;
+		zaogun's shoulderplates,11325,150" />
+		<parameter key="message_greet" value="Hello|PLAYERNAME|! and welcome to my little forge."/>
+        <parameter key="message_farewell" value="Bye."/>
+		<parameter key="message_walkaway" value="Farewell, |PLAYERNAME|, may the winds guide your way." />
+</parameters>
+</npc>
