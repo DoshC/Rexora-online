@@ -402,5 +402,7 @@
 		<action uniqueid="14073" event="script" value="emporia/the travelling trader quest/rashidQuestPackageDoor.lua"/>
 		<!-- the ancient tombs quest -->
 		<action actionid="14080-14082" event="script" value="emporia/the ancient tombs quest/TeleportSwitches.lua"/>
-		
+		<!-- wrath of the emperor quest -->
+		<action itemid="12284" event="script" value="emporia/wrath of the emperor quest/QuestCrate.lua"/> 
+		<action uniqueid="14087-14090" event="script" value="emporia/wrath of the emperor quest/QuestLight.lua"/>
 </actions>
